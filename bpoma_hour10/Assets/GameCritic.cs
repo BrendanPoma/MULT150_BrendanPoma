@@ -17,5 +17,5 @@ This can also be tedious at times when the Chaos balls interfere a ton with the 
  - Changed the size of the Bumper.
  - Added Variations to the Chaos Balls size.
  - Added other Game objects to the borders to create more Chaos!
- - was going to change the sound of the footsteps but was having trouble importing the asset unfortunately and ran out of time because I started working too late...
+ - Changed the walking sound to sound like water on the FPS.
  */

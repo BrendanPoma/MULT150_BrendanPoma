@@ -1172,7 +1172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556722727}
   m_LocalRotation: {x: 0.26362568, y: 0.7171336, z: 0.3480183, w: -0.54323494}
-  m_LocalPosition: {x: 40.25179, y: -32.04711, z: 11.652998}
+  m_LocalPosition: {x: 29.624943, y: -36.788956, z: 14.196182}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2258,7 +2258,11 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_FootstepSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+      objectReference: {fileID: 8300000, guid: 6755e20b5c79018438c8aed7439dcfed, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: b9a5f4a46006d6f429a02ea0fadc4809, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!4 &1157315770 stripped
