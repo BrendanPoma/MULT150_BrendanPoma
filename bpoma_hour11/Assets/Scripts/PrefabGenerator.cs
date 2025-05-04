@@ -8,10 +8,16 @@ public class PrefabGenerator : MonoBehaviour
 
     void Start()
     {
-        
+        float spacing = 5.0f;
+
+        for (int i = 0; i < 10; i++)
+        {
+            Vector3 lampPosition = transform.position + new Vector3(i * spacing, 0, 0);
+
+            Instantiate(prefab, lampPosition, transform.rotation);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.B))
