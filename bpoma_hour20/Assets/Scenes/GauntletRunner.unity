@@ -415,6 +415,24 @@ CapsuleCollider:
   m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
+--- !u!114 &184845352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184845348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a31cc8756ccd94780fadcb4d09dde1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 934958453}
+  normalMat: {fileID: 2100000, guid: dc696444f7cf032469099617451faa61, type: 2}
+  phasedMat: {fileID: 2100000, guid: 67d24cf9019886246babf1a1b0ec936f, type: 2}
+  bounds: 3
+  strafeSpeed: 4
+  phaseCooldown: 2
 --- !u!1 &934776273
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,6 +542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 934958454}
   - component: {fileID: 934958453}
+  - component: {fileID: 934958455}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -543,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e1f3e05b983f4fa0132e7296f3d84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 0}
+  ground: {fileID: 1065190599}
   gameTime: 10
 --- !u!4 &934958454
 Transform:
@@ -560,6 +579,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &934958455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934958452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d853ee6c9b8ade04696c8ef2095e4bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerupPrefab: {fileID: 7029569495625156725, guid: b1fa92f59758c324c8e7dd9e76384ecd, type: 3}
+  obstaclePrefab: {fileID: 3755948485551687484, guid: 899b07c8ff56c3649888f04fd4ef0b38, type: 3}
+  spawnCycle: 0.5
 --- !u!1 &1065190598
 GameObject:
   m_ObjectHideFlags: 0
